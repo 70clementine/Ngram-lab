@@ -1,0 +1,53 @@
+{
+  "system": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.16 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:36:16) [MSC v.1942 64 bit (AMD64)]",
+  "cpu": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "logical_cpus": 14,
+  "physical_cpus": 14,
+  "ram_gib": 31.364055633544922,
+  "available_ram_gib_at_start": 14.901546478271484,
+  "gpu_used": false,
+  "parallel_training_jobs": 1,
+  "packages": {
+    "nltk": "3.9.2",
+    "numpy": "2.2.6",
+    "matplotlib": "3.10.3",
+    "psutil": "7.0.0",
+    "pytest": "8.4.1"
+  },
+  "started_utc": "2026-09-26T05:36:09.683579+00:00",
+  "config": {
+    "seed": 20260926,
+    "max_corpus_tokens": 350000,
+    "min_word_count": 2,
+    "train_fraction": 0.8,
+    "dev_fraction": 0.1,
+    "repeats": 3,
+    "generation_max_tokens": 60,
+    "generation_seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "prompt_tokens": [
+      "在",
+      "阳光明媚",
+      "的",
+      "五月",
+      "，",
+      "我们",
+      "学校",
+      "胜利",
+      "召开",
+      "了"
+    ],
+    "training_timeout_seconds": 600,
+    "training_memory_limit_mb": 4096
+  },
+  "config_sha256": "74e7f32a9e430772409fcc06550ecbb91434cf9d135b253838dbf2b5e9a762cd",
+  "data_summary_sha256": "a8cb3a10178ef96bd5952b964e05d837f528e5fe888974216726663c22b30921",
+  "experiments_wall_seconds": 191.77779200000077,
+  "finished_utc": "2026-09-26T05:39:17.358221+00:00"
+}

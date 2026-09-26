@@ -1,0 +1,59 @@
+{
+  "id": "kn2",
+  "order": 2,
+  "memory": "512M",
+  "prune": [
+    0
+  ],
+  "repeat": 3,
+  "train": {
+    "wall_seconds": 0.6,
+    "user_seconds": 0.18,
+    "system_seconds": 0.19,
+    "peak_rss_kib": 168632,
+    "exit_code": 0,
+    "elapsed_seconds": 0.6177193450000686,
+    "command": [
+      "lmplz",
+      "-o",
+      "2",
+      "-S",
+      "512M",
+      "-T",
+      "/tmp/ngram-sort-4c54kcz6",
+      "--text",
+      "/workspace/data/kenlm/train.txt",
+      "--arpa",
+      "/workspace/models/kenlm/kn2.arpa",
+      "--discount_fallback",
+      "--prune",
+      "0"
+    ],
+    "log": "results/kenlm/logs/kn2_r3.log",
+    "events": "results/kenlm/logs/kn2_r3.events.json"
+  },
+  "build": {
+    "wall_seconds": 0.08,
+    "user_seconds": 0.02,
+    "system_seconds": 0.01,
+    "peak_rss_kib": 7808,
+    "exit_code": 0,
+    "elapsed_seconds": 0.09597902999985308,
+    "command": [
+      "build_binary",
+      "probing",
+      "/workspace/models/kenlm/kn2.arpa",
+      "/workspace/models/kenlm/kn2.bin"
+    ],
+    "log": "results/kenlm/logs/kn2_r3_binary.log",
+    "events": "results/kenlm/logs/kn2_r3_binary.events.json"
+  },
+  "arpa_sha256": "bff77871a9ae7dc79ced8268f9a17df8809e25fc462260cb947c343b3ffcdeb3",
+  "arpa_mib": 3.367611885070801,
+  "binary_mib": 2.7167348861694336,
+  "ngram_counts": {
+    "1": 12885,
+    "2": 134348
+  },
+  "discount_fallback_used": false
+}

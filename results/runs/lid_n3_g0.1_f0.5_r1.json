@@ -1,0 +1,106 @@
+{
+  "id": "lid_n3_g0.1_f0.5",
+  "order": 3,
+  "smoothing": "lidstone",
+  "gamma": 0.1,
+  "fraction": 0.5,
+  "repeat": 1,
+  "train_seconds": 2.4105321999995795,
+  "train_tokens": 142478,
+  "train_sentences": 5532,
+  "train_articles": 395,
+  "tokens_per_second": 59106.449604790534,
+  "peak_rss_mb": 125.01171875,
+  "baseline_rss_mb": 68.98828125,
+  "incremental_rss_mb": 56.0234375,
+  "distinct_ngrams": {
+    "1": 10890,
+    "2": 78515,
+    "3": 122769
+  },
+  "progress": [
+    {
+      "sentences": 500,
+      "tokens": 12953,
+      "seconds": 0.21725309999965248,
+      "rss_mb": 75.484375
+    },
+    {
+      "sentences": 1000,
+      "tokens": 25928,
+      "seconds": 0.42582559999937075,
+      "rss_mb": 82.22265625
+    },
+    {
+      "sentences": 1500,
+      "tokens": 38662,
+      "seconds": 0.6694773999988683,
+      "rss_mb": 88.69140625
+    },
+    {
+      "sentences": 2000,
+      "tokens": 51132,
+      "seconds": 0.8776784999990923,
+      "rss_mb": 93.49609375
+    },
+    {
+      "sentences": 2500,
+      "tokens": 63303,
+      "seconds": 1.0692858999991586,
+      "rss_mb": 98.015625
+    },
+    {
+      "sentences": 3000,
+      "tokens": 75542,
+      "seconds": 1.2955059999985679,
+      "rss_mb": 103.609375
+    },
+    {
+      "sentences": 3500,
+      "tokens": 89168,
+      "seconds": 1.5155977999984316,
+      "rss_mb": 108.0625
+    },
+    {
+      "sentences": 4000,
+      "tokens": 101969,
+      "seconds": 1.701112999999168,
+      "rss_mb": 112.3359375
+    },
+    {
+      "sentences": 4500,
+      "tokens": 115318,
+      "seconds": 1.9144217999983084,
+      "rss_mb": 116.578125
+    },
+    {
+      "sentences": 5000,
+      "tokens": 128372,
+      "seconds": 2.16433749999851,
+      "rss_mb": 120.82421875
+    },
+    {
+      "sentences": 5500,
+      "tokens": 141615,
+      "seconds": 2.389540099999067,
+      "rss_mb": 124.8046875
+    },
+    {
+      "sentences": 5532,
+      "tokens": 142478,
+      "seconds": 2.4104105999995227,
+      "rss_mb": 125.01171875
+    }
+  ],
+  "save_seconds": 0.4466873999990639,
+  "model_mb": 3.9021148681640625,
+  "dev": {
+    "events": 35268,
+    "zero_events": 0,
+    "unk_events": 2897,
+    "cross_entropy_nats": 8.622158046938237,
+    "ppl": 5553.357878485126,
+    "ppl_infinite": false,
+    "seconds": 0.31460359999982757
+  }
+}

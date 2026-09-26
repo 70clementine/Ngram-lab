@@ -1,0 +1,102 @@
+[
+  {
+    "seconds": 0.012606501999925968,
+    "text": "=== 1/5 Counting and sorting n-grams ==="
+  },
+  {
+    "seconds": 0.013375451999991128,
+    "text": "Reading /workspace/data/kenlm/train.txt"
+  },
+  {
+    "seconds": 0.014027075999820227,
+    "text": "----5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100"
+  },
+  {
+    "seconds": 0.3117929729999105,
+    "text": "****************************************************************************************************"
+  },
+  {
+    "seconds": 0.3701508429999194,
+    "text": "Unigram tokens 280200 types 12885"
+  },
+  {
+    "seconds": 0.3705217570000059,
+    "text": "=== 2/5 Calculating and sorting adjusted counts ==="
+  },
+  {
+    "seconds": 0.37082415999998375,
+    "text": "Chain sizes: 1:154620 2:373421632 3:700165568"
+  },
+  {
+    "seconds": 0.4151337359999161,
+    "text": "Statistics:"
+  },
+  {
+    "seconds": 0.4156707219999589,
+    "text": "1 12885 D1=0.121996 D2=1.82159 D3+=2.69495"
+  },
+  {
+    "seconds": 0.416525178999791,
+    "text": "2 134348 D1=0.757651 D2=1.23079 D3+=1.58215"
+  },
+  {
+    "seconds": 0.4172945539999091,
+    "text": "3 227247 D1=0.875424 D2=1.31521 D3+=1.55303"
+  },
+  {
+    "seconds": 0.4186271129999568,
+    "text": "Memory estimate for binary LM:"
+  },
+  {
+    "seconds": 0.4191881749998174,
+    "text": "type      kB"
+  },
+  {
+    "seconds": 0.41990485499991337,
+    "text": "probing 7470 assuming -p 1.5"
+  },
+  {
+    "seconds": 0.4203802929998801,
+    "text": "probing 8308 assuming -r models -p 1.5"
+  },
+  {
+    "seconds": 0.42164679199981947,
+    "text": "trie    3108 without quantization"
+  },
+  {
+    "seconds": 0.4237770659999569,
+    "text": "trie    1702 assuming -q 8 -b 8 quantization"
+  },
+  {
+    "seconds": 0.4246706529997937,
+    "text": "trie    2939 assuming -a 22 array pointer compression"
+  },
+  {
+    "seconds": 0.4253035319998162,
+    "text": "trie    1533 assuming -a 22 -q 8 -b 8 array pointer compression and quantization"
+  },
+  {
+    "seconds": 0.4260003729998516,
+    "text": "=== 3/5 Calculating and sorting initial probabilities ==="
+  },
+  {
+    "seconds": 0.4264294139998128,
+    "text": "Chain sizes: 1:154620 2:2149568 3:4544940"
+  },
+  {
+    "seconds": 0.4771244989999559,
+    "text": "=== 4/5 Calculating and writing order-interpolated probabilities ==="
+  },
+  {
+    "seconds": 0.47772889199995916,
+    "text": "Chain sizes: 1:154620 2:2149568 3:4544940"
+  },
+  {
+    "seconds": 0.49580405799997607,
+    "text": "=== 5/5 Writing ARPA model ==="
+  },
+  {
+    "seconds": 1.2969571409998935,
+    "text": "Name:lmplz\tVmPeak:1196376 kB\tVmRSS:12936 kB\tRSSMax:271084 kB\tuser:0.344743\tsys:0.308241\tCPU:0.653008\treal:1.29015"
+  }
+]

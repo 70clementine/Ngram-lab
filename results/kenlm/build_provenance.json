@@ -1,0 +1,8 @@
+{
+  "recorded_utc": "2026-09-26T06:19:21.919027+00:00",
+  "docker_image_id": "sha256:2bc410234761092d73f34f0b889507ea5a800d9dfd7c4edce1b9d717375a1c53",
+  "docker_image_created": "2026-09-26T06:09:10.284884525Z",
+  "docker_image_size_bytes": 463164599,
+  "first_build_seconds": null,
+  "note": "首次构建直接从终端执行，未单独持久化墙钟计时；不报告估算的安装耗时。"
+}

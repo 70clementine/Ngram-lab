@@ -1,0 +1,9 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "1. 本机清洗与 KenLM 输入", "type": "debugpy", "request": "launch", "module": "ngram_lab.kenlm_cli", "args": ["prepare"], "cwd": "${workspaceFolder}", "console": "integratedTerminal"},
+    {"name": "2. Docker KenLM 重复训练", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/scripts/run_kenlm.py", "args": ["experiment"], "cwd": "${workspaceFolder}", "console": "integratedTerminal"},
+    {"name": "3. Docker KenLM 续写", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/scripts/run_kenlm.py", "args": ["generate", "--temperature", "1.0", "--top-k", "20"], "cwd": "${workspaceFolder}", "console": "integratedTerminal"},
+    {"name": "4. 本机中文图表和报告", "type": "debugpy", "request": "launch", "module": "ngram_lab.kenlm_cli", "args": ["report"], "cwd": "${workspaceFolder}", "console": "integratedTerminal"}
+  ]
+}

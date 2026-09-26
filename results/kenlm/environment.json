@@ -1,0 +1,125 @@
+{
+  "utc": "2026-09-26T06:14:50.533493+00:00",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+  "python": "3.11.16",
+  "kenlm_commit": "4cb443e60b7bf2c0ddf3c745378f76cb59e254e5",
+  "cpu_limit": 4,
+  "memory_limit": "4g",
+  "config": {
+    "seed": 20260926,
+    "repeats": 3,
+    "timeout_seconds": 600,
+    "container_cpus": 4,
+    "container_memory": "4g",
+    "generation_seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "generation_max_tokens": 60,
+    "models": [
+      {
+        "id": "kn2",
+        "order": 2,
+        "memory": "512M",
+        "prune": [
+          0
+        ]
+      },
+      {
+        "id": "kn3",
+        "order": 3,
+        "memory": "512M",
+        "prune": [
+          0
+        ]
+      },
+      {
+        "id": "kn4",
+        "order": 4,
+        "memory": "512M",
+        "prune": [
+          0
+        ]
+      },
+      {
+        "id": "kn5",
+        "order": 5,
+        "memory": "512M",
+        "prune": [
+          0
+        ]
+      },
+      {
+        "id": "kn3_prune",
+        "order": 3,
+        "memory": "512M",
+        "prune": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": "kn5_prune",
+        "order": 5,
+        "memory": "512M",
+        "prune": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "kn3_mem128",
+        "order": 3,
+        "memory": "128M",
+        "prune": [
+          0
+        ]
+      },
+      {
+        "id": "kn3_mem1G",
+        "order": 3,
+        "memory": "1G",
+        "prune": [
+          0
+        ]
+      }
+    ]
+  },
+  "numpy": "2.2.6",
+  "cpu.max": "400000 100000",
+  "memory.max": "4294967296",
+  "python_packages": [
+    "click==8.5.0",
+    "cloudpickle==3.1.2",
+    "contourpy==1.3.3",
+    "cycler==0.12.1",
+    "Cython==3.1.2",
+    "fonttools==4.66.0",
+    "iniconfig==2.3.0",
+    "joblib==1.6.0",
+    "kenlm @ file:///opt/kenlm",
+    "kiwisolver==1.5.1",
+    "matplotlib==3.10.3",
+    "nltk==3.9.2",
+    "numpy==2.2.6",
+    "packaging==26.3",
+    "people-daily-ngram-lab==1.0.0",
+    "pillow==12.3.0",
+    "pluggy==1.6.0",
+    "psutil==7.0.0",
+    "Pygments==2.21.0",
+    "pyparsing==3.3.3",
+    "pytest==8.4.1",
+    "python-dateutil==2.9.0.post0",
+    "regex==2026.9.10",
+    "six==1.17.0",
+    "tqdm==4.70.1"
+  ]
+}

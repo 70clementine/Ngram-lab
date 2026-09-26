@@ -1,0 +1,476 @@
+[
+  {
+    "id": "kn2",
+    "order": 2,
+    "memory": "512M",
+    "prune": [
+      0
+    ],
+    "train_seconds_median": 0.5956069209998986,
+    "train_seconds_min": 0.5396250589999454,
+    "train_seconds_max": 0.6177193450000686,
+    "train_seconds_all": [
+      0.5396250589999454,
+      0.5956069209998986,
+      0.6177193450000686
+    ],
+    "peak_rss_mib_max": 164.75,
+    "build_seconds_median": 0.09983383899998444,
+    "arpa_mib": 3.367611885070801,
+    "binary_mib": 2.7167348861694336,
+    "ngram_counts": {
+      "1": 12885,
+      "2": 134348
+    },
+    "deterministic_arpa": true,
+    "discount_fallback_used": false,
+    "dev": {
+      "ppl": 254.37727666460086,
+      "cross_entropy_bits": 7.990825991263805,
+      "log10_probability": -84836.40916058049,
+      "events": 35268,
+      "tokens": 33929,
+      "model_oov_events": 0,
+      "rare_tokens": 2897,
+      "rare_rate": 0.08538418462082584,
+      "matched_orders": {
+        "1": 10698,
+        "2": 24570
+      }
+    },
+    "test": {
+      "ppl": 280.8828180448713,
+      "cross_entropy_bits": 8.133824565468627,
+      "log10_probability": -91329.98897806276,
+      "events": 37300,
+      "tokens": 35869,
+      "model_oov_events": 0,
+      "rare_tokens": 3801,
+      "rare_rate": 0.10596894254091277,
+      "matched_orders": {
+        "1": 12278,
+        "2": 25022
+      }
+    }
+  },
+  {
+    "id": "kn3",
+    "order": 3,
+    "memory": "512M",
+    "prune": [
+      0
+    ],
+    "train_seconds_median": 1.2541130670001621,
+    "train_seconds_min": 1.1404793809999774,
+    "train_seconds_max": 1.3155957999999828,
+    "train_seconds_all": [
+      1.1404793809999774,
+      1.2541130670001621,
+      1.3155957999999828
+    ],
+    "peak_rss_mib_max": 146.734375,
+    "build_seconds_median": 0.2892327109998405,
+    "arpa_mib": 11.309608459472656,
+    "binary_mib": 7.386435508728027,
+    "ngram_counts": {
+      "1": 12885,
+      "2": 134348,
+      "3": 227247
+    },
+    "deterministic_arpa": true,
+    "discount_fallback_used": false,
+    "dev": {
+      "ppl": 209.68626825387489,
+      "cross_entropy_bits": 7.712088576384734,
+      "log10_probability": -81877.13043233685,
+      "events": 35268,
+      "tokens": 33929,
+      "model_oov_events": 0,
+      "rare_tokens": 2897,
+      "rare_rate": 0.08538418462082584,
+      "matched_orders": {
+        "1": 10698,
+        "2": 14468,
+        "3": 10102
+      }
+    },
+    "test": {
+      "ppl": 253.48687449398375,
+      "cross_entropy_bits": 7.985767236440483,
+      "log10_probability": -89667.53927565971,
+      "events": 37300,
+      "tokens": 35869,
+      "model_oov_events": 0,
+      "rare_tokens": 3801,
+      "rare_rate": 0.10596894254091277,
+      "matched_orders": {
+        "1": 12278,
+        "2": 15654,
+        "3": 9368
+      }
+    }
+  },
+  {
+    "id": "kn4",
+    "order": 4,
+    "memory": "512M",
+    "prune": [
+      0
+    ],
+    "train_seconds_median": 2.152393299999858,
+    "train_seconds_min": 1.9017048340001566,
+    "train_seconds_max": 2.2018428370001857,
+    "train_seconds_all": [
+      2.152393299999858,
+      1.9017048340001566,
+      2.2018428370001857
+    ],
+    "peak_rss_mib_max": 133.17578125,
+    "build_seconds_median": 0.5293097149999539,
+    "arpa_mib": 22.790470123291016,
+    "binary_mib": 13.005209922790527,
+    "ngram_counts": {
+      "1": 12885,
+      "2": 134348,
+      "3": 227247,
+      "4": 251568
+    },
+    "deterministic_arpa": true,
+    "discount_fallback_used": false,
+    "dev": {
+      "ppl": 204.3568057072449,
+      "cross_entropy_bits": 7.674946480094863,
+      "log10_probability": -81482.80297715585,
+      "events": 35268,
+      "tokens": 33929,
+      "model_oov_events": 0,
+      "rare_tokens": 2897,
+      "rare_rate": 0.08538418462082584,
+      "matched_orders": {
+        "1": 10698,
+        "2": 14468,
+        "3": 6083,
+        "4": 4019
+      }
+    },
+    "test": {
+      "ppl": 250.68014953892282,
+      "cross_entropy_bits": 7.969703948628658,
+      "log10_probability": -89487.17395218892,
+      "events": 37300,
+      "tokens": 35869,
+      "model_oov_events": 0,
+      "rare_tokens": 3801,
+      "rare_rate": 0.10596894254091277,
+      "matched_orders": {
+        "1": 12278,
+        "2": 15654,
+        "3": 6598,
+        "4": 2770
+      }
+    }
+  },
+  {
+    "id": "kn5",
+    "order": 5,
+    "memory": "512M",
+    "prune": [
+      0
+    ],
+    "train_seconds_median": 3.0927133550001145,
+    "train_seconds_min": 2.9887935879999077,
+    "train_seconds_max": 3.135081280000122,
+    "train_seconds_all": [
+      3.135081280000122,
+      2.9887935879999077,
+      3.0927133550001145
+    ],
+    "peak_rss_mib_max": 122.859375,
+    "build_seconds_median": 0.7869617719998132,
+    "arpa_mib": 35.87039279937744,
+    "binary_mib": 18.754408836364746,
+    "ngram_counts": {
+      "1": 12885,
+      "2": 134348,
+      "3": 227247,
+      "4": 251568,
+      "5": 251059
+    },
+    "deterministic_arpa": true,
+    "discount_fallback_used": false,
+    "dev": {
+      "ppl": 203.6024627649873,
+      "cross_entropy_bits": 7.6696112020593805,
+      "log10_probability": -81426.1597927218,
+      "events": 35268,
+      "tokens": 33929,
+      "model_oov_events": 0,
+      "rare_tokens": 2897,
+      "rare_rate": 0.08538418462082584,
+      "matched_orders": {
+        "1": 10698,
+        "2": 14468,
+        "3": 6083,
+        "4": 1921,
+        "5": 2098
+      }
+    },
+    "test": {
+      "ppl": 250.23746384510395,
+      "cross_entropy_bits": 7.9671539859028595,
+      "log10_probability": -89458.5419026817,
+      "events": 37300,
+      "tokens": 35869,
+      "model_oov_events": 0,
+      "rare_tokens": 3801,
+      "rare_rate": 0.10596894254091277,
+      "matched_orders": {
+        "1": 12278,
+        "2": 15654,
+        "3": 6598,
+        "4": 1815,
+        "5": 955
+      }
+    }
+  },
+  {
+    "id": "kn3_prune",
+    "order": 3,
+    "memory": "512M",
+    "prune": [
+      0,
+      0,
+      1
+    ],
+    "train_seconds_median": 0.7186695860000327,
+    "train_seconds_min": 0.6568063790000451,
+    "train_seconds_max": 0.72379019899995,
+    "train_seconds_all": [
+      0.6568063790000451,
+      0.7186695860000327,
+      0.72379019899995
+    ],
+    "peak_rss_mib_max": 146.609375,
+    "build_seconds_median": 0.12432637200004137,
+    "arpa_mib": 4.394155502319336,
+    "binary_mib": 3.873202323913574,
+    "ngram_counts": {
+      "1": 12885,
+      "2": 134348,
+      "3": 22586
+    },
+    "deterministic_arpa": true,
+    "discount_fallback_used": false,
+    "dev": {
+      "ppl": 225.2192110939289,
+      "cross_entropy_bits": 7.815186083657508,
+      "log10_probability": -82971.68840669285,
+      "events": 35268,
+      "tokens": 33929,
+      "model_oov_events": 0,
+      "rare_tokens": 2897,
+      "rare_rate": 0.08538418462082584,
+      "matched_orders": {
+        "1": 10698,
+        "2": 18029,
+        "3": 6541
+      }
+    },
+    "test": {
+      "ppl": 259.3395403278841,
+      "cross_entropy_bits": 8.018698373929926,
+      "log10_probability": -90037.30388021172,
+      "events": 37300,
+      "tokens": 35869,
+      "model_oov_events": 0,
+      "rare_tokens": 3801,
+      "rare_rate": 0.10596894254091277,
+      "matched_orders": {
+        "1": 12278,
+        "2": 18608,
+        "3": 6414
+      }
+    }
+  },
+  {
+    "id": "kn5_prune",
+    "order": 5,
+    "memory": "512M",
+    "prune": [
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "train_seconds_median": 0.7671779239999523,
+    "train_seconds_min": 0.7665709189998324,
+    "train_seconds_max": 0.8195033859999512,
+    "train_seconds_all": [
+      0.8195033859999512,
+      0.7671779239999523,
+      0.7665709189998324
+    ],
+    "peak_rss_mib_max": 122.94921875,
+    "build_seconds_median": 0.14961355799982812,
+    "arpa_mib": 5.127401351928711,
+    "binary_mib": 4.313689231872559,
+    "ngram_counts": {
+      "1": 12885,
+      "2": 134348,
+      "3": 22586,
+      "4": 9996,
+      "5": 4803
+    },
+    "deterministic_arpa": true,
+    "discount_fallback_used": false,
+    "dev": {
+      "ppl": 222.76670689412225,
+      "cross_entropy_bits": 7.799389823764114,
+      "log10_probability": -82803.98384536365,
+      "events": 35268,
+      "tokens": 33929,
+      "model_oov_events": 0,
+      "rare_tokens": 2897,
+      "rare_rate": 0.08538418462082584,
+      "matched_orders": {
+        "1": 10698,
+        "2": 18029,
+        "3": 4528,
+        "4": 1171,
+        "5": 842
+      }
+    },
+    "test": {
+      "ppl": 257.4607777362433,
+      "cross_entropy_bits": 8.008208854787439,
+      "log10_probability": -89919.52316586787,
+      "events": 37300,
+      "tokens": 35869,
+      "model_oov_events": 0,
+      "rare_tokens": 3801,
+      "rare_rate": 0.10596894254091277,
+      "matched_orders": {
+        "1": 12278,
+        "2": 18608,
+        "3": 4860,
+        "4": 1091,
+        "5": 463
+      }
+    }
+  },
+  {
+    "id": "kn3_mem128",
+    "order": 3,
+    "memory": "128M",
+    "prune": [
+      0
+    ],
+    "train_seconds_median": 1.122789781999927,
+    "train_seconds_min": 1.0713029730000017,
+    "train_seconds_max": 1.1584119030001148,
+    "train_seconds_all": [
+      1.1584119030001148,
+      1.0713029730000017,
+      1.122789781999927
+    ],
+    "peak_rss_mib_max": 58.08984375,
+    "build_seconds_median": 0.28697465599998395,
+    "arpa_mib": 11.309608459472656,
+    "binary_mib": 7.386435508728027,
+    "ngram_counts": {
+      "1": 12885,
+      "2": 134348,
+      "3": 227247
+    },
+    "deterministic_arpa": true,
+    "discount_fallback_used": false,
+    "dev": {
+      "ppl": 209.68626825387489,
+      "cross_entropy_bits": 7.712088576384734,
+      "log10_probability": -81877.13043233685,
+      "events": 35268,
+      "tokens": 33929,
+      "model_oov_events": 0,
+      "rare_tokens": 2897,
+      "rare_rate": 0.08538418462082584,
+      "matched_orders": {
+        "1": 10698,
+        "2": 14468,
+        "3": 10102
+      }
+    },
+    "test": {
+      "ppl": 253.48687449398375,
+      "cross_entropy_bits": 7.985767236440483,
+      "log10_probability": -89667.53927565971,
+      "events": 37300,
+      "tokens": 35869,
+      "model_oov_events": 0,
+      "rare_tokens": 3801,
+      "rare_rate": 0.10596894254091277,
+      "matched_orders": {
+        "1": 12278,
+        "2": 15654,
+        "3": 9368
+      }
+    }
+  },
+  {
+    "id": "kn3_mem1G",
+    "order": 3,
+    "memory": "1G",
+    "prune": [
+      0
+    ],
+    "train_seconds_median": 1.357841720999886,
+    "train_seconds_min": 1.3002091889998155,
+    "train_seconds_max": 1.4552998799999841,
+    "train_seconds_all": [
+      1.3002091889998155,
+      1.4552998799999841,
+      1.357841720999886
+    ],
+    "peak_rss_mib_max": 264.75390625,
+    "build_seconds_median": 0.27589815400006046,
+    "arpa_mib": 11.309608459472656,
+    "binary_mib": 7.386435508728027,
+    "ngram_counts": {
+      "1": 12885,
+      "2": 134348,
+      "3": 227247
+    },
+    "deterministic_arpa": true,
+    "discount_fallback_used": false,
+    "dev": {
+      "ppl": 209.68626825387489,
+      "cross_entropy_bits": 7.712088576384734,
+      "log10_probability": -81877.13043233685,
+      "events": 35268,
+      "tokens": 33929,
+      "model_oov_events": 0,
+      "rare_tokens": 2897,
+      "rare_rate": 0.08538418462082584,
+      "matched_orders": {
+        "1": 10698,
+        "2": 14468,
+        "3": 10102
+      }
+    },
+    "test": {
+      "ppl": 253.48687449398375,
+      "cross_entropy_bits": 7.985767236440483,
+      "log10_probability": -89667.53927565971,
+      "events": 37300,
+      "tokens": 35869,
+      "model_oov_events": 0,
+      "rare_tokens": 3801,
+      "rare_rate": 0.10596894254091277,
+      "matched_orders": {
+        "1": 12278,
+        "2": 15654,
+        "3": 9368
+      }
+    }
+  }
+]

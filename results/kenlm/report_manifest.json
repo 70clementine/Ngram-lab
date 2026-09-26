@@ -1,0 +1,13 @@
+{
+  "font": "Noto Sans CJK JP",
+  "selected_model": "kn5",
+  "samples": 34,
+  "figures": [
+    "01_阶数对比.png",
+    "02_剪枝对比.png",
+    "03_内存预算.png",
+    "04_训练过程.png",
+    "05_生成参数.png",
+    "06_项目架构.png"
+  ]
+}

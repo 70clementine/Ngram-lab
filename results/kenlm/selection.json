@@ -1,0 +1,6 @@
+{
+  "selected": "kn5",
+  "criterion": "最低验证集 PPL；平手选更小模型",
+  "dev_ppl": 203.6024627649873,
+  "frozen_before_test": true
+}

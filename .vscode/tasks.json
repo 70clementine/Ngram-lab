@@ -1,0 +1,7 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label": "KenLM: 一键复现实验", "type": "process", "command": "${command:python.interpreterPath}", "args": ["scripts/run_kenlm.py", "all"], "options": {"cwd": "${workspaceFolder}"}, "problemMatcher": []},
+    {"label": "KenLM: 运行检查", "type": "process", "command": "${command:python.interpreterPath}", "args": ["scripts/run_kenlm.py", "audit"], "options": {"cwd": "${workspaceFolder}"}, "problemMatcher": []}
+  ]
+}

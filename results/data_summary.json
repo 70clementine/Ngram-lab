@@ -1,0 +1,77 @@
+{
+  "source_url": "https://ndownloader.figshare.com/files/10193073",
+  "source_doi": "10.6084/m9.figshare.5777397.v1",
+  "source_sha256": "1e2574641b92bc07c61af95162ce3c62bdef5a5da04ceff0d50144b4aae4b6a1",
+  "source_bytes": 8830154,
+  "source_encoding": "gb18030 (strict)",
+  "source_nonempty_lines": 19484,
+  "source_tokens_without_ids": 1121447,
+  "source_articles": 3148,
+  "source_date_min": "19980101",
+  "source_date_max": "19980131",
+  "removed_entity_openings": 9238,
+  "duplicate_sentences_removed": 746,
+  "unique_sentences_before_sampling": 43796,
+  "sampled_tokens": 349998,
+  "sampled_articles": 989,
+  "lexical_vocabulary_size": 12881,
+  "min_word_count": 2,
+  "splits": {
+    "train": {
+      "articles": 791,
+      "sentences": 10930,
+      "tokens": 280200,
+      "unk_tokens": 12500,
+      "raw_oov_tokens": 0,
+      "file_sha256": "3e6f3076a4cdaa86bf346d005d4f4775163eb2f29e5da33cbdee918ea67009f1"
+    },
+    "dev": {
+      "articles": 98,
+      "sentences": 1339,
+      "tokens": 33929,
+      "unk_tokens": 2897,
+      "raw_oov_tokens": 2070,
+      "file_sha256": "142d25ed721b3c3ceaa27fea4ab37e072eaf0e8fe345ba0a74bab0273228f623"
+    },
+    "test": {
+      "articles": 100,
+      "sentences": 1431,
+      "tokens": 35869,
+      "unk_tokens": 3801,
+      "raw_oov_tokens": 2721,
+      "file_sha256": "1e35d303a970f3973b075c5e1f1cb5a06217440d670cc9f50029525c1123a44b"
+    }
+  },
+  "elapsed_seconds": 2.402450499999759,
+  "created_utc": "2026-09-26T06:02:00.609546+00:00",
+  "config": {
+    "seed": 20260926,
+    "max_corpus_tokens": 350000,
+    "min_word_count": 2,
+    "train_fraction": 0.8,
+    "dev_fraction": 0.1,
+    "repeats": 3,
+    "generation_max_tokens": 60,
+    "generation_seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "prompt_tokens": [
+      "在",
+      "阳光明媚",
+      "的",
+      "五月",
+      "，",
+      "我们",
+      "学校",
+      "胜利",
+      "召开",
+      "了"
+    ],
+    "training_timeout_seconds": 600,
+    "training_memory_limit_mb": 4096
+  }
+}

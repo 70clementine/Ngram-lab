@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "people-daily-ngram-lab"
+version = "1.0.0"
+description = "Reproducible Chinese word n-gram experiments on a bounded People's Daily corpus"
+requires-python = ">=3.11"
+dependencies = ["nltk==3.9.2", "numpy==2.2.6", "matplotlib==3.10.3", "psutil==7.0.0"]
+
+[project.optional-dependencies]
+test = ["pytest==8.4.1"]
+
+[project.scripts]
+ngram-lab = "ngram_lab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

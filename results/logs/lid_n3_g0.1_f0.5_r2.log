@@ -1,0 +1,12 @@
+lid_n3_g0.1_f0.5 repeat=2: 500/5532 sentences, 0.25s, 75.3 MiB
+lid_n3_g0.1_f0.5 repeat=2: 1000/5532 sentences, 0.49s, 82.0 MiB
+lid_n3_g0.1_f0.5 repeat=2: 1500/5532 sentences, 0.75s, 88.5 MiB
+lid_n3_g0.1_f0.5 repeat=2: 2000/5532 sentences, 0.98s, 93.2 MiB
+lid_n3_g0.1_f0.5 repeat=2: 2500/5532 sentences, 1.21s, 97.7 MiB
+lid_n3_g0.1_f0.5 repeat=2: 3000/5532 sentences, 1.47s, 103.3 MiB
+lid_n3_g0.1_f0.5 repeat=2: 3500/5532 sentences, 1.73s, 107.8 MiB
+lid_n3_g0.1_f0.5 repeat=2: 4000/5532 sentences, 1.98s, 112.1 MiB
+lid_n3_g0.1_f0.5 repeat=2: 4500/5532 sentences, 2.23s, 116.3 MiB
+lid_n3_g0.1_f0.5 repeat=2: 5000/5532 sentences, 2.52s, 120.5 MiB
+lid_n3_g0.1_f0.5 repeat=2: 5500/5532 sentences, 2.80s, 124.5 MiB
+lid_n3_g0.1_f0.5 repeat=2: 5532/5532 sentences, 2.82s, 124.7 MiB

@@ -1,0 +1,153 @@
+{
+  "id": "wb_n1",
+  "order": 1,
+  "smoothing": "witten_bell",
+  "gamma": null,
+  "fraction": 1.0,
+  "repeat": 3,
+  "train_seconds": 1.1030031999998755,
+  "train_tokens": 280200,
+  "train_sentences": 10930,
+  "train_articles": 791,
+  "tokens_per_second": 254033.71449877173,
+  "peak_rss_mb": 81.06640625,
+  "baseline_rss_mb": 80.30078125,
+  "incremental_rss_mb": 0.765625,
+  "distinct_ngrams": {
+    "1": 12883
+  },
+  "progress": [
+    {
+      "sentences": 500,
+      "tokens": 12953,
+      "seconds": 0.04483310000068741,
+      "rss_mb": 80.6328125
+    },
+    {
+      "sentences": 1000,
+      "tokens": 25928,
+      "seconds": 0.08475689999977476,
+      "rss_mb": 80.65234375
+    },
+    {
+      "sentences": 1500,
+      "tokens": 38662,
+      "seconds": 0.13469980000081705,
+      "rss_mb": 80.65234375
+    },
+    {
+      "sentences": 2000,
+      "tokens": 51132,
+      "seconds": 0.185253499999817,
+      "rss_mb": 80.65234375
+    },
+    {
+      "sentences": 2500,
+      "tokens": 63303,
+      "seconds": 0.23753860000033455,
+      "rss_mb": 80.65625
+    },
+    {
+      "sentences": 3000,
+      "tokens": 75542,
+      "seconds": 0.28644549999989977,
+      "rss_mb": 80.66015625
+    },
+    {
+      "sentences": 3500,
+      "tokens": 89168,
+      "seconds": 0.33508400000027905,
+      "rss_mb": 80.6640625
+    },
+    {
+      "sentences": 4000,
+      "tokens": 101969,
+      "seconds": 0.3865014000002702,
+      "rss_mb": 80.6640625
+    },
+    {
+      "sentences": 4500,
+      "tokens": 115318,
+      "seconds": 0.44138159999965865,
+      "rss_mb": 80.6640625
+    },
+    {
+      "sentences": 5000,
+      "tokens": 128372,
+      "seconds": 0.4909605000011652,
+      "rss_mb": 80.6640625
+    },
+    {
+      "sentences": 5500,
+      "tokens": 141615,
+      "seconds": 0.5443389000010939,
+      "rss_mb": 80.6640625
+    },
+    {
+      "sentences": 6000,
+      "tokens": 154338,
+      "seconds": 0.5933440999997401,
+      "rss_mb": 81.06640625
+    },
+    {
+      "sentences": 6500,
+      "tokens": 167937,
+      "seconds": 0.6498592999996617,
+      "rss_mb": 81.06640625
+    },
+    {
+      "sentences": 7000,
+      "tokens": 180058,
+      "seconds": 0.6954837000012049,
+      "rss_mb": 81.06640625
+    },
+    {
+      "sentences": 7500,
+      "tokens": 193266,
+      "seconds": 0.7522917000005691,
+      "rss_mb": 81.06640625
+    },
+    {
+      "sentences": 8000,
+      "tokens": 205756,
+      "seconds": 0.8039410000001226,
+      "rss_mb": 81.06640625
+    },
+    {
+      "sentences": 8500,
+      "tokens": 218473,
+      "seconds": 0.8555543000002217,
+      "rss_mb": 81.06640625
+    },
+    {
+      "sentences": 9000,
+      "tokens": 231880,
+      "seconds": 0.9155726999997569,
+      "rss_mb": 81.06640625
+    },
+    {
+      "sentences": 9500,
+      "tokens": 244802,
+      "seconds": 0.9653219000010722,
+      "rss_mb": 81.06640625
+    },
+    {
+      "sentences": 10000,
+      "tokens": 257385,
+      "seconds": 1.016426300000603,
+      "rss_mb": 81.06640625
+    },
+    {
+      "sentences": 10500,
+      "tokens": 269310,
+      "seconds": 1.063461499999903,
+      "rss_mb": 81.06640625
+    },
+    {
+      "sentences": 10930,
+      "tokens": 280200,
+      "seconds": 1.1027117000012367,
+      "rss_mb": 81.06640625
+    }
+  ]
+}

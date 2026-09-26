@@ -1,0 +1,70 @@
+{
+  "id": "lid_n3_g0.1_f0.25",
+  "order": 3,
+  "smoothing": "lidstone",
+  "gamma": 0.1,
+  "fraction": 0.25,
+  "repeat": 1,
+  "train_seconds": 1.1205397999983688,
+  "train_tokens": 64809,
+  "train_sentences": 2565,
+  "train_articles": 197,
+  "tokens_per_second": 57837.303057057274,
+  "peak_rss_mb": 91.61328125,
+  "baseline_rss_mb": 62.9296875,
+  "incremental_rss_mb": 28.68359375,
+  "distinct_ngrams": {
+    "1": 7711,
+    "2": 40426,
+    "3": 57919
+  },
+  "progress": [
+    {
+      "sentences": 500,
+      "tokens": 12953,
+      "seconds": 0.21361919999981183,
+      "rss_mb": 68.60546875
+    },
+    {
+      "sentences": 1000,
+      "tokens": 25928,
+      "seconds": 0.4334873999996489,
+      "rss_mb": 75.34375
+    },
+    {
+      "sentences": 1500,
+      "tokens": 38662,
+      "seconds": 0.6611634999990201,
+      "rss_mb": 81.80859375
+    },
+    {
+      "sentences": 2000,
+      "tokens": 51132,
+      "seconds": 0.8730448999995133,
+      "rss_mb": 86.53125
+    },
+    {
+      "sentences": 2500,
+      "tokens": 63303,
+      "seconds": 1.0929631999988487,
+      "rss_mb": 91.03515625
+    },
+    {
+      "sentences": 2565,
+      "tokens": 64809,
+      "seconds": 1.1204096999990725,
+      "rss_mb": 91.61328125
+    }
+  ],
+  "save_seconds": 0.211748699999589,
+  "model_mb": 2.0754880905151367,
+  "dev": {
+    "events": 35268,
+    "zero_events": 0,
+    "unk_events": 2897,
+    "cross_entropy_nats": 8.856087888226293,
+    "ppl": 7016.977777013779,
+    "ppl_infinite": false,
+    "seconds": 0.325398299999506
+  }
+}

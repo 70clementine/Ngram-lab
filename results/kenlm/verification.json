@@ -1,0 +1,29 @@
+{
+  "utc": "2026-09-26T06:16:36.283083+00:00",
+  "status": "passed",
+  "models_recomputed": 8,
+  "generation_samples": 34,
+  "figures_checked": 6,
+  "pytest_output": ".....................                                                    [100%]\n21 passed in 1.45s",
+  "checks": [
+    "输入哈希",
+    "计时汇总",
+    "ARPA 哈希",
+    "模型体积",
+    "16组评估重算",
+    "PPL 分母",
+    "验证选型",
+    "生成符号",
+    "报告图片"
+  ],
+  "host_git_ignore_checked": [
+    "data/raw/people_daily_1998.txt",
+    "data/processed/train.txt",
+    "data/kenlm/train.txt",
+    "models/kenlm/kn5.bin",
+    ".vscode/settings.json"
+  ],
+  "main_document_links_checked": true,
+  "visual_review": "6 张中文 PNG 已逐张检查；图例、坐标、来源与中文字体正常",
+  "cli_smoke_test": "run_kenlm.py generate --model kn3 --temperature 0.7 --top-k 20 --seed 22 --max-tokens 3 成功"
+}

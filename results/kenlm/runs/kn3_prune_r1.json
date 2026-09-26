@@ -1,0 +1,64 @@
+{
+  "id": "kn3_prune",
+  "order": 3,
+  "memory": "512M",
+  "prune": [
+    0,
+    0,
+    1
+  ],
+  "repeat": 1,
+  "train": {
+    "wall_seconds": 0.65,
+    "user_seconds": 0.26,
+    "system_seconds": 0.17,
+    "peak_rss_kib": 150092,
+    "exit_code": 0,
+    "elapsed_seconds": 0.6568063790000451,
+    "command": [
+      "lmplz",
+      "-o",
+      "3",
+      "-S",
+      "512M",
+      "-T",
+      "/tmp/ngram-sort-522rsnha",
+      "--text",
+      "/workspace/data/kenlm/train.txt",
+      "--arpa",
+      "/workspace/models/kenlm/kn3_prune.arpa",
+      "--discount_fallback",
+      "--prune",
+      "0",
+      "0",
+      "1"
+    ],
+    "log": "results/kenlm/logs/kn3_prune_r1.log",
+    "events": "results/kenlm/logs/kn3_prune_r1.events.json"
+  },
+  "build": {
+    "wall_seconds": 0.12,
+    "user_seconds": 0.04,
+    "system_seconds": 0.0,
+    "peak_rss_kib": 8852,
+    "exit_code": 0,
+    "elapsed_seconds": 0.1296331349999491,
+    "command": [
+      "build_binary",
+      "probing",
+      "/workspace/models/kenlm/kn3_prune.arpa",
+      "/workspace/models/kenlm/kn3_prune.bin"
+    ],
+    "log": "results/kenlm/logs/kn3_prune_r1_binary.log",
+    "events": "results/kenlm/logs/kn3_prune_r1_binary.events.json"
+  },
+  "arpa_sha256": "6390655135b50aa3fb372d93a3baac80494d77718fc70f2bfc946b7e1eda4061",
+  "arpa_mib": 4.394155502319336,
+  "binary_mib": 3.873202323913574,
+  "ngram_counts": {
+    "1": 12885,
+    "2": 134348,
+    "3": 22586
+  },
+  "discount_fallback_used": false
+}

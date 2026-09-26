@@ -1,0 +1,21 @@
+项目：人民日报词级 n-gram / KenLM 课程实验
+本地目录：E:\Ngram
+
+完整说明：README.md
+实验报告：实验报告.md
+全部续写：results/kenlm/生成样例.md
+中文图表：results/kenlm/figures/
+
+VSCode 打开 E:\Ngram，选择 ngram-lab 的 Python 解释器。
+启动 Docker Desktop 后，在项目根目录运行：
+  python scripts/run_kenlm.py generate
+
+从头复现：
+  python scripts/run_kenlm.py build
+  python scripts/run_kenlm.py all
+  python scripts/run_kenlm.py test
+  python scripts/run_kenlm.py audit
+
+KenLM 在 Linux 容器内运行，容器限制 4 CPU / 4 GiB，不用 GPU。
+原 NLTK 版本已保留，当前成果以 results/kenlm 为准。
+GitHub 上传步骤、参数说明和阅读顺序详见 README.md。

@@ -1,0 +1,7 @@
+{
+  "criterion": "minimum dev perplexity among full-data models",
+  "best_id": "wb_n3",
+  "dev_ppl": 263.20798067057234,
+  "best_full_data_wb_id": "wb_n3",
+  "frozen_before_test_utc": "2026-09-26T05:38:56.867026+00:00"
+}

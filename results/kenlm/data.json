@@ -1,0 +1,25 @@
+{
+  "splits": {
+    "train": {
+      "sha256": "74051131a4c022e2d61433036ea808ac7aa218d044ce640680c467621a6bf0e4",
+      "sentences": 10930,
+      "tokens": 280200,
+      "rare_tokens": 12500
+    },
+    "dev": {
+      "sha256": "d8be9c91995e854c224ffba1390c9597636f471a34e4746857ab475b1a85a0e6",
+      "sentences": 1339,
+      "tokens": 33929,
+      "rare_tokens": 2897
+    },
+    "test": {
+      "sha256": "e0506f7114490ab166f3747cd348a41595b0adf3f3d75f3ff31b443957dde38a",
+      "sentences": 1431,
+      "tokens": 35869,
+      "rare_tokens": 3801
+    }
+  },
+  "lexical_vocabulary": 12881,
+  "rare_symbol": "〈低频词〉",
+  "vocabulary_sha256": "95de210354ec044071162ee49a4a3974008f9844d95c916e4b22eced2632238e"
+}

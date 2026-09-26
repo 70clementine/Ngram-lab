@@ -1,0 +1,16 @@
+项目说明入口
+============
+
+本项目位于 E:\ngram，使用 Python + NLTK，在 Conda 环境 ngram-lab 中运行。
+
+请在 VSCode 中打开本目录，优先阅读 README.md 和 实验报告.md。
+README.md 是完整项目说明，包含环境安装、复现、文件结构、代码阅读顺序、参数修改和 GitHub 上传步骤。
+
+常用命令：
+  conda activate ngram-lab
+  python -m ngram_lab.cli all
+  python -m pytest -q
+  python -m ngram_lab.cli generate --model wb_n3 --temperature 1.0 --top-k 20
+
+原始数据、处理语料和模型保存在本机，默认不上传 GitHub；报告、图表、指标和源码可以提交。
+当前实现实际使用 NLTK，没有运行 SRILM 或 KenLM；工具选择原因见报告。

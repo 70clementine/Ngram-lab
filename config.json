@@ -1,0 +1,13 @@
+{
+  "seed": 20260926,
+  "max_corpus_tokens": 350000,
+  "min_word_count": 2,
+  "train_fraction": 0.8,
+  "dev_fraction": 0.1,
+  "repeats": 3,
+  "generation_max_tokens": 60,
+  "generation_seeds": [11, 22, 33, 44, 55],
+  "prompt_tokens": ["在", "阳光明媚", "的", "五月", "，", "我们", "学校", "胜利", "召开", "了"],
+  "training_timeout_seconds": 600,
+  "training_memory_limit_mb": 4096
+}

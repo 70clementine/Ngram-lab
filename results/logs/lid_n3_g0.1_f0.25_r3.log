@@ -1,0 +1,6 @@
+lid_n3_g0.1_f0.25 repeat=3: 500/2565 sentences, 0.20s, 68.8 MiB
+lid_n3_g0.1_f0.25 repeat=3: 1000/2565 sentences, 0.42s, 75.6 MiB
+lid_n3_g0.1_f0.25 repeat=3: 1500/2565 sentences, 0.65s, 82.1 MiB
+lid_n3_g0.1_f0.25 repeat=3: 2000/2565 sentences, 0.86s, 86.8 MiB
+lid_n3_g0.1_f0.25 repeat=3: 2500/2565 sentences, 1.06s, 91.3 MiB
+lid_n3_g0.1_f0.25 repeat=3: 2565/2565 sentences, 1.09s, 91.8 MiB

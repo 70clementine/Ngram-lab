@@ -1,0 +1,19 @@
+{
+  "seed": 20260926,
+  "repeats": 3,
+  "timeout_seconds": 600,
+  "container_cpus": 4,
+  "container_memory": "4g",
+  "generation_seeds": [11, 22, 33, 44, 55],
+  "generation_max_tokens": 60,
+  "models": [
+    {"id": "kn2", "order": 2, "memory": "512M", "prune": [0]},
+    {"id": "kn3", "order": 3, "memory": "512M", "prune": [0]},
+    {"id": "kn4", "order": 4, "memory": "512M", "prune": [0]},
+    {"id": "kn5", "order": 5, "memory": "512M", "prune": [0]},
+    {"id": "kn3_prune", "order": 3, "memory": "512M", "prune": [0, 0, 1]},
+    {"id": "kn5_prune", "order": 5, "memory": "512M", "prune": [0, 0, 1, 1, 1]},
+    {"id": "kn3_mem128", "order": 3, "memory": "128M", "prune": [0]},
+    {"id": "kn3_mem1G", "order": 3, "memory": "1G", "prune": [0]}
+  ]
+}
